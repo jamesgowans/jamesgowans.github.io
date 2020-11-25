@@ -3,5 +3,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 .gitignore
-/_site
+_site
 vendor
