@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ site.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <style type="text/css">
+		
+		p {line-height: 20px; margin-bottom: 24px; font-size: 16px; color: #494949;}
+		h1 {font-size: 20px; color: black; margin-top: 36px;}
+		h2 {font-size: 18px; margin-top: 24px; font-weight: bold; color: black;}
+		ul, li {list-style: none; padding-inline-start: 5px; margin-bottom: 9px; line-height: 20px; font-size: 16px; color: #494949;}
+		body {margin-left: 72px; font-family: Courier, monospace; width: 520px; padding-bottom: 150px;}
+		img {margin: 24px 0 36px 0; border: 1px solid gray;}
+                @media (prefers-color-scheme:dark) {
+                       html {background: #1a1b1d;}
+                       h1,h2,p,ul,li,code {color: #fff}
+                       a {color: #4eadf1;}
+                       a:hover {color: #7dc3f5;} 
+                }
+                @media screen and (max-width: 519px) {
+                       body {width: 90%; margin-left: 5%; margin-right: 5%;}
+                }
+	</style>
+        <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="{{ site.title}}" />
+    </head>
+    <body>

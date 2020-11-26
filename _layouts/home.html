@@ -1,0 +1,16 @@
+{% include head.html %}
+    
+    <h1> hi, i'm james. </h1>
+    
+    {% include bio.html %}
+    
+    <h2> blog </h2>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+         <span class="postdate">{{ post.date | date: "%Y-%m-%d" }} </span><span class="posttitle"><a href="{{ post.url }}"> {{ post.title }}</a></span>
+        </li>
+      {% endfor %}
+    </ul>
+
+{% include footer.html %}
