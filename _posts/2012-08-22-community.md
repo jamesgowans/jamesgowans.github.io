@@ -1,9 +1,9 @@
 ---
-title: community 
+title: three
 date: 2012-08-22
 author: James Gowans
 layout: post
-slug: community
+slug: /3/
 
 ---
 
