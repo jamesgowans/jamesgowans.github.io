@@ -1,9 +1,9 @@
 ---
-title: three
+title: one
 date: 2012-08-22
 author: James Gowans
 layout: post
-slug: /3
+slug: /01
 
 ---
 
