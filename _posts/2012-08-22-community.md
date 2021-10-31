@@ -8,7 +8,7 @@ slug: community
 ---
 
 
-I've been reflecting on my relationship with social media and, to some extent, the Internet in general.
+I've been reflecting on my relationship hi with social media and, to some extent, the Internet in general.
 
 Mostly I've been considering what I'm looking for when signing up for these services. What purpose do they serve in my life or what void I'm trying to fill by scrolling through status updates.
 
