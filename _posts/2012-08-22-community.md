@@ -3,7 +3,7 @@ title: community
 date: 2012-08-22
 author: James Gowans
 layout: post
-slug: 1  
+slug: community
 
 ---
 
