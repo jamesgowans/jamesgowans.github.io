@@ -6,10 +6,10 @@
     
 <nav class="post_navigation">
   {% if page.previous.url %}
-    <a href="{{ page.previous.url }}" style= "float: left;" >&larr; {{ page.previous.slug }}</a>
+    <a href="{{ page.previous.url }}" style= "float: left;" >&laquo; {{ page.previous.slug }}</a>
   {% endif %}
   {% if page.next.url %}
-    <a href="{{ page.next.url }}" style = "float: right;" >{{ page.next.slug }} &rarr;</a>
+    <a href="{{ page.next.url }}" style = "float: right;" >{{ page.next.slug }} &raquo;</a>
   {% endif %}
 </nav>
 
