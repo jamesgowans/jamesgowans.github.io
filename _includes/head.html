@@ -24,8 +24,8 @@
 		body {font-family: monospace; width: 520px; margin-left: auto;  margin-right: auto; padding-bottom: 150px;}
 		img {margin: 24px 0 24px 0; border: 1px solid gray; }
 		
-  #title {float: left;}
-  #logo {float: right;}
+  header.title {float: left;}
+  header.logo {float: right;}
 		
                 @media screen and (max-width: 519px) {
                        body {width: 90%; margin-left: 5%; margin-right: 5%;}
@@ -36,10 +36,10 @@
     </head>
       <body>
         <header>
-          <div id = "title>
+          <div class = "title">
             <h1>{{ page.title }}</h1>
           </div>
-          <div id = "logo">
+          <div class = "logo">
             <a href = "/"><img src = "favicon.png" style = "border-radius: 50%; width: 42px;"></a>
           </div>
       </header>
