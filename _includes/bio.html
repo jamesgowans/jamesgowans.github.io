@@ -5,4 +5,8 @@
   <li>em <a href= "mailto:james@gowans.ca">james@gowans.ca</a></li>
 </ul>
 
-<p>weekly writing and intersting links <a href = "https://www.getrevue.co/profile/uncleyimmy">@uncleyimmy</a>. occaisional writing here as well. read the <a href= "/02">latest</a> or start at the <a href= "/01">beginning</a>.</p>
+<p>weekly roundup and intersting links <a href = "http://yimmy.gowans.ca">@uncleyimmy</a>. 
+
+{% for post in site.posts limit:1 %}
+
+occaisional writing here as well. read the <a href= "{{ post.url }}">latest</a> or start at the <a href= "/01">beginning</a>.</p>
