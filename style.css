@@ -1,0 +1,267 @@
+:root {
+  --bg:           #1a1b1c;
+  --surface:      #242526;
+  --surface-alt:  #2d2e30;
+  --text:         #dfe1e3;
+  --muted:        #6b6e72;
+  --border:       #313336;
+  --accent:       #5a9898;
+  --teal-1:       #2e5c5c;
+  --teal-2:       #427878;
+  --teal-3:       #5a9898;
+  --teal-4:       #80b4b4;
+  --teal-5:       #a8cccc;
+  --destructive:  #8b4a4a;
+
+  --font:         'American Typewriter', 'Courier New', Courier, monospace;
+  --nav-height:   3rem;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* ── Nav ── */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--nav-height);
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.nav-name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.nav-links {
+  list-style: none;
+  display: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-size: 0.62rem;
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: color 0.15s;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+/* ── Main container ── */
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ── Hero ── */
+#hero {
+  padding-top: calc(var(--nav-height) + 4rem);
+  padding-bottom: 5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.hero-tagline {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.85;
+  margin-bottom: 1.75rem;
+}
+
+.hero-meta {
+  font-size: 0.62rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ── Section chrome ── */
+section {
+  padding-bottom: 4.5rem;
+}
+
+.section-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ── About ── */
+#about p {
+  font-size: 0.8rem;
+  color: var(--text);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+#about p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Experience ── */
+.employer {
+  margin-bottom: 1.25rem;
+}
+
+.employer-name {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.roles {
+  padding-left: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.role {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.role-title {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.role-dates {
+  font-size: 0.62rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.employer p {
+  font-size: 0.8rem;
+  color: var(--text);
+  line-height: 1.75;
+}
+
+.employer-sep {
+  font-size: 0.9rem;
+  color: var(--border);
+  margin: 1.5rem 0;
+  letter-spacing: 0.05em;
+}
+
+/* ── Contact ── */
+#contact p {
+  font-size: 0.8rem;
+  color: var(--text);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+#contact p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Links ── */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ── Footer ── */
+footer {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 3.5rem;
+  border-top: 1px solid var(--border);
+}
+
+footer p {
+  font-size: 0.58rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* ── Desktop (768px+) ── */
+@media (min-width: 768px) {
+  nav {
+    padding: 0 2rem;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  main {
+    padding: 0 2rem;
+  }
+
+  #hero {
+    padding-top: calc(var(--nav-height) + 6rem);
+    padding-bottom: 6rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-tagline {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    padding: 2rem 2rem 5rem;
+  }
+}
