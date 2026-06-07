@@ -130,20 +130,6 @@ section {
   margin-bottom: 1.5rem;
 }
 
-/* ── Tagline ── */
-.tagline {
-  padding: 1.5rem 0 3.5rem;
-  max-width: 420px;
-  margin: 0 auto;
-}
-
-.tagline p {
-  font-size: 0.9rem;
-  color: var(--text);
-  line-height: 2;
-  text-align: left;
-}
-
 /* ── About ── */
 #about p {
   font-size: 0.8rem;
