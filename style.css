@@ -97,7 +97,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--accent);
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.8rem;
   line-height: 1.3;
 }
 
@@ -106,9 +106,12 @@ h1 {
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  border-bottom: 2px solid var(--accent);
-  padding-bottom: 0.6rem;
+  padding-bottom: 1.25rem;
   margin-bottom: 1.75rem;
+  background-image: linear-gradient(to right, var(--teal-1), var(--teal-2), var(--teal-3), var(--teal-4), var(--teal-5));
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 100%;
 }
 
 /* ── Section chrome ── */
