@@ -90,7 +90,7 @@ main {
 /* ── Hero ── */
 #hero {
   padding-top: calc(var(--nav-height) + 4rem);
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 h1 {
@@ -132,16 +132,16 @@ section {
 
 /* ── Tagline ── */
 .tagline {
-  text-align: center;
-  padding: 3rem 1.5rem 4rem;
+  padding: 1.5rem 3rem 3.5rem;
   max-width: 680px;
   margin: 0 auto;
 }
 
 .tagline p {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--text);
   line-height: 2;
+  text-align: center;
 }
 
 /* ── About ── */
@@ -261,7 +261,7 @@ footer p {
 
   #hero {
     padding-top: calc(var(--nav-height) + 6rem);
-    padding-bottom: 6rem;
+    padding-bottom: 2.5rem;
   }
 
   h1 {
