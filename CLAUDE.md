@@ -48,7 +48,7 @@ Static web — no platform standards file applies. Follow these rules:
 
 ## Stack
 
-`Personal_Stack.md` — Salish personal project
+`~/Projects/salish/vault/02 Knowledge/Systems/Personal_Stack.md` — Salish personal project
 
 ---
 
