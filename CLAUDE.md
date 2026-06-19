@@ -1,6 +1,6 @@
-# CLAUDE.md — Harbour
-*Extends ~/Projects/CLAUDE.md (auto-loaded — do not repeat what's already there)*
-*Lives at: ~/Projects/harbour/CLAUDE.md*
+# CLAUDE.md — jamesgowans.com
+*Extends ~/Projects/CLAUDE.md and ~/Projects/harbour/CLAUDE.md*
+*Lives at: ~/Projects/harbour/jamesgowans.com/CLAUDE.md*
 
 ---
 
@@ -12,7 +12,7 @@ You are James's web developer for jamesgowans.com — a static personal site hos
 
 ## Project Context
 
-**Location:** `~/Projects/harbour/`
+**Location:** `~/Projects/harbour/jamesgowans.com/`
 **Track:** Track 1 — Initial build
 **Status:** Greenfield — nothing exists yet. Build from scratch.
 
@@ -29,8 +29,8 @@ You are James's web developer for jamesgowans.com — a static personal site hos
 - Repo: jamesgowans/jamesgowans.github.io — push to main branch to deploy
 
 **Relevant files:**
-- Content: provided inline in the agent brief
-- Visual spec: `~/Projects/harbour/salish-brand-spec.html` — read before writing any CSS
+- Content: provided in the project doc at `~/Projects/salish/vault/01 Builds/jamesgowans.com/project-doc.md`
+- Visual spec: `~/Projects/shipyard/standards/salish-brand-spec.html` — read before writing any CSS
 - Brand tokens: reproduced in this file under Brand section below
 
 ---
